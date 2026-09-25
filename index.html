@@ -1,102 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dinesh's Website</title>
+<title>Career Update India</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #0b1020;
-            color: white;
-            text-align: center;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #172033;
+}
 
-        header {
-            padding: 70px 20px;
-            background: linear-gradient(135deg, #111827, #172554);
-        }
+header {
+    background: linear-gradient(135deg, #0b3d91, #1565c0);
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
 
-        h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
 
-        header p {
-            font-size: 18px;
-            color: #cbd5e1;
-        }
+header p {
+    font-size: 15px;
+}
 
-        .button {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 25px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
+nav {
+    background: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-        section {
-            padding: 50px 20px;
-        }
+nav a {
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: bold;
+    padding: 7px 10px;
+}
 
-        .card {
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 25px;
-            background: #111827;
-            border-radius: 15px;
-        }
+.search {
+    padding: 20px 15px;
+    text-align: center;
+}
 
-        footer {
-            padding: 25px;
-            background: #050814;
-            color: #94a3b8;
-        }
-    </style>
+.search input {
+    width: 100%;
+    max-width: 600px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 15px 40px;
+}
+
+.title {
+    margin: 25px 0 15px;
+    border-left: 5px solid #1565c0;
+    padding-left: 10px;
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #0b3d91;
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px 14px;
+    border-radius: 6px;
+    margin: 4px;
+    background: #1565c0;
+    color: white;
+    font-weight: bold;
+}
+
+.result .btn {
+    background: #198754;
+}
+
+.notice {
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    background: #172033;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+.small {
+    font-size: 13px;
+    color: #666;
+}
+</style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to Dinesh's Website</h1>
-        <p>My first website created from my iPhone.</p>
+<header>
+    <h1>Career Update India</h1>
+    <p>Latest Jobs • Results • Admit Card • Career Updates</p>
+</header>
 
-        <a href="#about" class="button">Explore</a>
-    </header>
+<nav>
+    <a href="#jobs">Latest Jobs</a>
+    <a href="#results">Results</a>
+    <a href="#admit">Admit Card</a>
+    <a href="#career">Career</a>
+</nav>
 
-    <section id="about">
-        <h2>About Me</h2>
+<div class="search">
+    <input type="text" placeholder="Search Jobs, Results, Exams...">
+</div>
 
-        <div class="card">
-            <p>
-                Hello! My name is Dinesh.
-                This is my first website and I am learning
-                web development from my mobile.
-            </p>
+<div class="container">
+
+    <h2 class="title" id="jobs">🔥 Latest Jobs</h2>
+
+    <div class="card">
+        <h3>SSC CGL 2026</h3>
+        <p><b>Organization:</b> Staff Selection Commission</p>
+        <p><b>Post:</b> Various Group B & C Posts</p>
+        <p><b>Qualification:</b> Graduation</p>
+        <p><b>Last Date:</b> Update Soon</p>
+
+        <div class="buttons">
+            <a class="btn" href="#" target="_blank">Notification</a>
+            <a class="btn" href="#" target="_blank">Apply Online</a>
         </div>
-    </section>
+    </div>
 
-    <section>
-        <h2>Contact</h2>
+    <div class="card">
+        <h3>Government Job Notification</h3>
+        <p><b>Organization:</b> Government Department</p>
+        <p><b>Qualification:</b> Check Notification</p>
+        <p><b>Last Date:</b> Check Official Notification</p>
 
-        <div class="card">
-            <p>You can contact me here.</p>
+        <div class="buttons">
+            <a class="btn" href="#" target="_blank">Notification</a>
+            <a class="btn" href="#" target="_blank">Apply Online</a>
         </div>
-    </section>
+    </div>
 
-    <footer>
-        © 2026 Dinesh. All Rights Reserved.
-    </footer>
+
+    <h2 class="title" id="results">🏆 Latest Results</h2>
+
+    <div class="card result">
+        <h3>SSC Examination Result</h3>
+        <p>Result has been announced.</p>
+
+        <div class="buttons">
+            <a class="btn" href="#" target="_blank">Check Result</a>
+        </div>
+    </div>
+
+    <div class="card result">
+        <h3>Government Exam Result</h3>
+        <p>Check the official result website.</p>
+
+        <div class="buttons">
+            <a class="btn" href="#" target="_blank">Check Result</a>
+        </div>
+    </div>
+
+
+    <h2 class="title" id="admit">🎫 Admit Card</h2>
+
+    <div class="card">
+        <h3>Latest Admit Card</h3>
+        <p>Exam admit card information and official download link.</p>
+
+        <div class="buttons">
+            <a class="btn" href="#" target="_blank">Download Admit Card</a>
+        </div>
+    </div>
+
+
+    <h2 class="title" id="career">📚 Career Information</h2>
+
+    <div class="card">
+        <h3>SSC CGL — Career Information</h3>
+        <p>
+            Eligibility, syllabus, selection process, salary
+            और preparation से संबंधित जानकारी यहाँ दी जाएगी।
+        </p>
+
+        <div class="notice">
+            <b>Important:</b> आवेदन करने से पहले हमेशा official notification जरूर देखें।
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Career Update India</p>
+    <p class="small">Information is provided for educational and career purposes.</p>
+</footer>
 
 </body>
 </html>
